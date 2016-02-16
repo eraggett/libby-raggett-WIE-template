@@ -1,7 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@import url("css/my_custom_style.css");
+@import url("css/normalize.css");
+@import url("css/skeleton.css");
+
 
 /*
 Theme Name: LibbyRaggett Blank Theme
