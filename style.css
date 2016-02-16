@@ -2,3 +2,19 @@
 /* CSS Document */
 
 @import url("css/my_custom_style.css");
+
+/*
+Theme Name: FirstName Blank Theme
+Theme URI: URL for FirstName Blank
+Author: FirstName LastName
+Description: Blank theme for WIE course
+Version: 0.1
+License: Open
+Text Domain: firstname_lastname_blank_template
+*/
+
+*{
+    color: #000000;
+    font-size: 14px;
+    line-height: 16px;
+}
