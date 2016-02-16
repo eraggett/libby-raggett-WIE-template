@@ -1,7 +1,7 @@
 <?php get_header(); ?>
     <section class="row">
         <div class="two columns">
-        nbsp;
+    &nbsp;
         </div>
          <div class="eight columns">
         
