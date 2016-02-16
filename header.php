@@ -10,8 +10,8 @@
  <div class="container">
             <header class="row">
                 <div class="twelve columns">
-                    <h1>Blank WordPress Template</h1>
-                    <p>This is my WordPress template.</p>
+                     <h1><?php bloginfo('name'); ?></h1>
+                    <p><?php bloginfo('description'); ?></p>
                 </div>
             </header>
             <!-- END OF HEADER - BEGIN SECTION CONTENT -->
