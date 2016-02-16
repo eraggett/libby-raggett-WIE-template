@@ -1,10 +1,10 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Untitled Document</title>
-</head>
+<!-- BEGINNING OF FOOTER - END SECTION CONTENT -->
 
-<body>
+<footer class="row">
+                <div class="twelve columns">
+                    <p>Footer content goes here.</p>
+                </div>
+            </footer>
+        </div> <!-- ends container -->
 </body>
 </html>
