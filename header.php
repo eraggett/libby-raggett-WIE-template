@@ -12,7 +12,7 @@
             <header class="row">
                 <div class="twelve columns">
                 
-                     <h1><a  hrf="<?php the_permalink();?>bloginfo('name'); ?></a></h1>
+                     <h1><a  href="<?php the_permalink();?>bloginfo('name'); ?></a></h1>
                     <h2><?php bloginfo('description'); ?></h2>
                 </div>
             </header>
