@@ -18,3 +18,4 @@
                     <p>This is my WordPress template.</p>
                 </div>
             </header>
+            <!-- END OF HEADER - BEGIN SECTION CONTENT -->
