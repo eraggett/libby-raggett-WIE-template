@@ -1,6 +1,10 @@
 <?php get_header(); ?>
     <section class="row">
-        <div class="twelve columns">
+        <div class="three columns">
+        	<h4>Sidebar</h4>
+            </div>
+            <div class="nine columns">
+         
 <!-- BEGIN LOOP -->
             <?php 
             if ( have_posts() ) {
