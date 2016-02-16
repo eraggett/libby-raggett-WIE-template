@@ -12,8 +12,8 @@
             <header class="row">
                 <div class="twelve columns">
                 
-                     <h1><?php bloginfo('name'); ?></h1>
-                    <p><?php bloginfo('description'); ?></p>
+                     <h1><a  hrf="<?php the_permalink();?>bloginfo('name'); ?></a></h1>
+                    <h2><?php bloginfo('description'); ?></h2>
                 </div>
             </header>
             <!-- END OF HEADER - BEGIN SECTION CONTENT -->
