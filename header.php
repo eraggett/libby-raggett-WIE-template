@@ -1,14 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<!-- Link to a CSS file --> 
-<link rel="stylesheet" type="text/css" href="style.css" />
-
-<!-- Link to a JavaScript file --> 
-<script src="custom.js"></script>
-<title>Untitled Document</title>
-</head>
+    <head>
+        <title></title>
+<?php wp_head(); ?>
+        <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
+    </head>
 
  <body>
  <div class="container">
