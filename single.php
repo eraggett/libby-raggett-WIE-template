@@ -1,14 +1,22 @@
 <?php get_header(); ?>
-    <div class="row">
-        <div class="twelve columns">
+    <section class="row">
+        <div class="two columns">
+        nbsp;
+        </div>
+         <div class="eight columns">
+        
 <!-- BEGIN SINGLE PHP -->
-            <?php if (have_posts()) :
+            <?php if (have_posts()) {
+					while (have_posts() ) {
+						
+						the_post();?>
                 /* OUR DATA CONTEXT IS DEFINED  */              
-                while (have_posts()) : the_post(); ?> 
-                    <h2><?php the_title(); ?></h2>
+                
+                    <h3><?php the_title(); ?></h3>
                     <?php the_content();
-                endwhile;
-            endif; ?>
+					}
+			}?>
+           
 <!-- END SINGLE PHP -->
         </div>
     </div>
